@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://www.excel-networking.com/sites/default/files/styles/lightbox_main__portrait_/public/jpeg/EXCEL/205-312%281%29.jpg?itok=-zYimhiC")
+}
+.toph1{
+    z-index: 10;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 45px;
+}
+.topcontainer{
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoscont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+.text{
+    text-align: center;
+    color: rgb(123, 216, 162);
+    font-size: 20px;
+}
